@@ -1,6 +1,6 @@
 #include <iostream>
 
-#define SIZE 100010
+#define SIZE 1000100
 
 using namespace std;
 
@@ -10,7 +10,7 @@ int main(){
     int i = 2;
     int dp[SIZE] = {};
     
-    cin >> target;
+    cin >> target;   
 
     for(int j = 0 ; j < SIZE ; ++j){
         dp[j] = j;
